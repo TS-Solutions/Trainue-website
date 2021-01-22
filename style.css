@@ -1046,7 +1046,7 @@ section {
 	top: 0px;
 	left: 0px;
     display: block;
-    background: rgba(0,0,0,0.5);
+    background: rgb(36 103 158 / 50%);
 }
 
 .first-section h2 {
@@ -1190,7 +1190,8 @@ section {
 }
 .message-box a.hover-btn-new::before,
 .message-box a.hover-btn-new::after {
-	background: #3f8ef5;
+	
+  background-color: #0064d0;
   border-color: #3f8ef5;
 	content: '';
 	position: absolute;
@@ -1198,7 +1199,7 @@ section {
 }
 
 .message-box a.hover-btn-new:hover span {
-  color: #333333;
+  color: #fff;
 }
 .message-box a.hover-btn-new::before {
   height: 100%;
@@ -1223,6 +1224,7 @@ section {
   left: 50%;
   top: 50%;
   width: 0;
+  color: #fff;
 }
 
 
@@ -1607,6 +1609,13 @@ section {
     background-color: #0064d0;
     border-color: #6c757d;
 } 
+
+.fa-star {
+  color: #3f8ef5;
+}
+.fa-star-half {
+  color: #3f8ef5;
+}
 
 
 /*------------------------------------------------------------------
